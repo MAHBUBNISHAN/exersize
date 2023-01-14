@@ -1,0 +1,36 @@
+h3{
+    color: blue;
+}
+p{
+
+color: chartreuse;
+}
+li{
+    background-color: cyan;
+
+}
+.nish{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: unset;
+}
+.header{
+    height: 200px;
+    background-image: url(nishan.jpg);
+    background-image: url(../nish.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+ul li{
+    color: darkorange;
+    display: inline;
+}
+span{
+    border: 2px solid;
+    display: block;
+}
+.blog{
+    background-color: blueviolet;
+    box-shadow: 10px 50px;
+    margin: 100px;
+}

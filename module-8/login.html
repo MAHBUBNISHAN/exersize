@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore html</title>
+    <style>
+        .login-form{
+        display: flex;
+        justify-content: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: center;
+           
+        }
+        .container input{
+            margin-top: 1em;
+           font-size: 1.5em;
+           padding: 10px 10px;
+        }
+        .container input[type=submit]{
+            background-color:goldenrod;
+            border: 0;
+            border-radius: 10px;
+        }
+        .container h2{
+       font-size: 30px;
+       font-weight: 200px;
+        }
+      nav a{
+        text-decoration: none;
+        color: black;
+        margin-left:  10px;;
+        font-size: 20px;
+        font-weight: 700px;
+      }
+      
+    </style>
+</head>
+<body>
+    <section class="menubar">
+       <nav>
+        <a href="">Home</a>
+        <a href="">Dashboard</a>
+        <a href="">Inventory</a>
+       
+        </nav>
+    </section>
+    <section class="login-form">
+    <form class="container">
+        <h2> please login</h2>
+     <input type="email"  placeholder="your e-mail">
+     <input type="password" placeholder="password">
+     <input type="submit" value="Login">
+        
+    </form>
+    </section>
+</body>
+</html>

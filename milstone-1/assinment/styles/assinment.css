@@ -1,0 +1,90 @@
+*{
+    margin: 0;   
+    font-family:sans-serif;
+    width: 1600px;
+   }
+   .header{
+   background-image: url(../images/banner/banner3.png);
+   height: 800px;
+ 
+  
+   background-size: 100% 100%;
+   background-position: center;
+   }
+   .title{
+      text-align: right;
+      padding-top: 216px;
+      
+   }
+   .nav-title{
+   padding-right: 230px;
+   padding-bottom: 28px;
+   padding-left: 1400px;
+       color: #FFFFFF;
+       font-weight: 700;
+   font-size: 65px;
+   }
+   .nav-description{
+       padding-left: 1450px;
+       padding-right: 213px;
+       padding-bottom: 28px;
+       font-weight: 400;
+       font-size: 16px;
+       color: #FFFFFF;
+   }
+   .nav-btn{
+       margin-left: 1400px;
+       margin-right: 230px;
+       font-weight: 600;
+       font-size: 20px;
+       color: #005FAC;
+       width: 160px;
+   height: 64px;
+   }
+   .second{
+       margin-top: 0;
+       margin-left: 337px;
+       margin-left: 379PX;
+   
+       display: flex;
+       align-items: center;
+   }
+   .second-2{
+       margin-top: 239px;
+   }
+   .second-title{
+       padding-right: 719px;
+       padding-left: 200px;
+       font-weight: 700;
+       font-size: 40px;
+   }
+   .second-description{
+       padding-right: 719px;
+       padding-left: 210px;
+       margin-top: 22px;
+       margin-bottom: 18px;
+       font-weight: 400;
+       font-size: 16px;
+   }
+   .list{
+       list-style-type:none;
+       padding-right: 719px;
+       padding-left: 200px;
+   }
+   .third{
+       margin-top: 289px;
+       margin-bottom: 130PX;
+   }
+   .icon{
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+   }
+   .third-title{
+       font-weight: 700;
+       font-size: 40px;
+       margin-left: 1050px;
+       margin-bottom: 50px;
+   }
+   
+   

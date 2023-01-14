@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px repeat(4,1fr);
+    gap: 7px;
+    grid-template-rows: 250px 150px 200px 350px;
+    border: 2px solid fuchsia;
+    padding: 16px;
+}
+.box{
+    border: 2px solid blue;
+    background-color: aqua;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.side{
+grid-row: 1 /-1;
+background-color: cadetblue;
+}
+.headere{
+    grid-column: 2  / -1;
+    background-color: darkkhaki;
+}
+.chart-one{
+    grid-column:2 / 4;
+    background-color: chartreuse;
+}
+.chart-two{
+grid-column: 4/-1;
+background-color: chartreuse;
+}
+.overview{
+    gr
+    grid-column: 2/5;
+    background-color:darkred;
+}

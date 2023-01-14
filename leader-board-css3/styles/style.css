@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width:870px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 7px;
+}
+.section-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    margin-bottom: 40px;
+    margin-top: 3px;
+
+}
+.top-players{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 29px;
+    margin-bottom: 21px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+   
+}
+
+.player-name{
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 18px;
+}
+hr{
+    font-weight: 500;
+font-size: 18px;
+border: 1px solid #D1D1D1;
+margin-bottom: 30px;
+}
+
+.thumblin img{
+    width: 177px;
+    height: 117px;
+}
+.blogs{
+    margin-top: 30px;
+    display:grid ;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.blog-description{
+    margin-left: 16px;
+}
+.blog-title{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.blog-author{
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.blog-author a{   
+    text-decoration: none;
+}
+/* last finiahuing */
+.lates{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 23px;
+}
+.courses .picture img{
+    width: 224px;
+    height: 104px;
+}
+.picture{
+    padding: 13px 17px 19px 11px;
+}
+.sectiion-header{
+    font-weight: 500;
+    font-size: 24px;  
+    color: #562EFF;
+}
+.course-description{
+    margin: 0 46px  26px 12px;
+}
+.de-title{
+    font-weight: 500;
+font-size: 20.0336px;
+margin-top: 0;
+margin-bottom: 7px;
+}
+.de-paragraph
+{
+    font-weight: 400;
+font-size: 14.6913px;
+margin-top: 0;
+margin-bottom: 57px;
+}
+/* media */
+@media screen and (max-width:576px) {
+    .top-players{
+        display: flex;
+        flex-direction:column;
+    background-color: aquamarine;}
+    .container{
+        width:100%;
+    }
+    .blogs{
+        display: flex;
+        flex-direction: column;
+    }
+    .lates{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and(min-width:577px) and (max-width:1023) {
+    .players{
+            
+            grid-template-columns: repeat(2,1fr);
+    }   
+}
